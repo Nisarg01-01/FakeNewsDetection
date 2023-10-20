@@ -1,9 +1,9 @@
 import pandas as pd
 import streamlit as st
 import numpy as np
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.model_selection import train_test_split
-from sklearn.naive_bayes import MultinomialNB
+from scikit-learn.feature_extraction.text import CountVectorizer
+from scikit-learn.model_selection import train_test_split
+from scikit-learn.naive_bayes import MultinomialNB
 data = pd.read_csv("news.csv")
 
 x = np.array(data["title"])
