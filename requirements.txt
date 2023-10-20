@@ -1,6 +1,6 @@
 pandas
 numpy
-scikit-learn
+scikit-learn==1.1.2
 scikit-learn.feature_extraction.text
 scikit-learn.model_selection
 scikit-learn.naive_bayes
